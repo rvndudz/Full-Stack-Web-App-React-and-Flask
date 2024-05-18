@@ -1,0 +1,50 @@
+# Python (Flask) related
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# Flask specific
+instance/
+.webassets-cache
+
+# dotenv
+.env
+.env.*
+
+# Node.js (React) related
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+
+# Build directories
+build/
+dist/
+public/
+
+# dotenv
+.env
+.env.*
+
+# General
+
+# OS generated files
+.DS_Store
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
