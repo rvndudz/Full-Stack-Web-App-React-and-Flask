@@ -12,13 +12,21 @@ This project is a full stack web application built with React.js on the frontend
 
 ### Installation
 
-1. Clone the repo
-2. Set up a Python virtual environment and activate it:
+1. **Clone the repository**:
 
-py -3 -m venv .venv
+   ```sh
+   git clone <repository_url>
+   cd <repository_directory>
+   ```
 
-.venv\Scripts\activate
+2. **Set up a Python virtual environment and activate it**:
 
-3. Install the required Python packages:
+   ```sh
+   py -3 -m venv .venv
+   source .venv/Scripts/activate
+   ```
 
-pip install -r requirements.txt
+3. **Install the required Python packages**:
+   ```sh
+   pip install -r requirements.txt
+   ```
