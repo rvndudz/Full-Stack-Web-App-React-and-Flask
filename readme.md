@@ -21,12 +21,19 @@ This project is a full stack web application built with React.js on the frontend
 
 2. **Set up a Python virtual environment and activate it**:
 
-   ```sh
+   ```shell
    py -3 -m venv .venv
-   source .venv/Scripts/activate
+   .venv\Scripts\activate
    ```
 
 3. **Install the required Python packages**:
+
    ```sh
    pip install -r requirements.txt
+   ```
+
+4. **To run the Flask application in debug mode**:
+
+   ```shell
+   flask --app app run --debug
    ```

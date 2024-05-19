@@ -11,7 +11,7 @@ import { ImSun } from "react-icons/im";
 import { TbMoonStars } from "react-icons/tb";
 import CreateUserModal from "./CreateUserModel";
 
-const Navbar = () => {
+const Navbar = (setUsers) => {
   const { colorMode, toggleColorMode } = useColorMode();
   return (
     <Container maxW={"900px"}>
@@ -37,7 +37,7 @@ const Navbar = () => {
         >
           {colorMode === "light" ? <TbMoonStars /> : <ImSun />}
         </Button>
-        <CreateUserModal />
+        <CreateUserModal setUsers={setUsers} />
       </Box>
     </Container>
   );
